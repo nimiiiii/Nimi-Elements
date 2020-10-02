@@ -1,3 +1,8 @@
+/*
+ * Copyright 2020 Tom Bazarnik et al.
+ * Licensed under the GNU General Public License v2.0 w/Classpath exception
+ * See LICENSE for details.
+ */
 const images = require('@rollup/plugin-image')
 const url = require('@rollup/plugin-url')
 const svgr = require('@svgr/rollup').default
