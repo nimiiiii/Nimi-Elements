@@ -11,8 +11,13 @@ Welcome aboard! This is the monorepo for various component and utility libraries
 
 ## Packages
 
-- [`@nimiiiii/nimi-icons`](https://github.com/nimiiiii/Nimi-Elements/tree/main/packages/nimi-icons) — Azur Lane icons (_e.g. nations_) as SVG, PNG, WEBP or React components
-- _Watch this space!_
+### [`@nimiiiii/nimi-icons`](https://github.com/nimiiiii/Nimi-Elements/tree/main/packages/nimi-icons)
+
+![npm version](https://img.shields.io/npm/v/@nimiiiii/nimi-icons) 
+
+Azur Lane icons (_e.g. nations_) as SVG, PNG, WEBP or React components
+
+_Watch this space!_
 
 ## Contributing
 
@@ -38,7 +43,7 @@ Nimi Elements is organized as a monorepo using [Lerna](https://lerna.js.org). Us
 
 All packages are Copyright © Tom Bazarnik, Nathan Alo and Ayane Satomi. Licensed under GNU General Public License v2.0 w/Classpath exception.
 
-Azur Lane, the game, and all its assets are Copyright © Yostar. The  developers and contributors are no way affiliated with the game, the  company, nor its partners.
+Azur Lane, the game, and all its assets are Copyright © Yostar. The developers and contributors are no way affiliated with the game, the company, nor its partners.
 
 
 <p align="right">
