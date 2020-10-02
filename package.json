@@ -1,5 +1,6 @@
 {
   "name": "nimi-elements",
+  "private": true,
   "author": "Tom Bazarnik <tommywalkie@gmail.com>, Nathan Alo, Ayane Satomi, et al.",
   "license": "GPL-3.0",
   "workspaces": {
