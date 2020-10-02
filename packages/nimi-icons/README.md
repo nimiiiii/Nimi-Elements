@@ -4,7 +4,7 @@
 
 # `nimi-icons`
 
-![npm version](https://img.shields.io/npm/v/nimiiiii/nimi-icons)
+![npm version](https://img.shields.io/npm/v/@nimiiiii/nimi-icons)
 
 This package allows to use Azur Lane popular icons, such as nation logos, as SVG, PNG, WEBP or React components.
 
