@@ -4,14 +4,20 @@
  * See LICENSE for details.
  */
 
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import { IrisLibreIcon } from '../dist';
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+import { IronBloodIcon, toLower } from '../dist'
 
 describe('it', () => {
   it('renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<IrisLibreIcon />, div);
-    ReactDOM.unmountComponentAtNode(div);
-  });
-});
+    const div = document.createElement('div')
+    ReactDOM.render(<IronBloodIcon />, div)
+    ReactDOM.unmountComponentAtNode(div)
+  })
+})
+
+describe('it', () => {
+  it('can lowercase input string', () => {
+    expect(toLower('Iron Blood')).toBe('ironblood')
+  })
+})
