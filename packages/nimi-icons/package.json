@@ -4,7 +4,7 @@
   "description": "Azur Lane icons as SVG, PNG, WEBP, React components, etc.",
   "author": "tommywalkie <tommywalkie@gmail.com>",
   "homepage": "https://github.com/nimiiiii/Nimi-Elements#readme",
-  "license": "GPL-3.0",
+  "license": "GPL-2.0-with-classpath-exception",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.esm.js",
