@@ -13,7 +13,7 @@ Welcome aboard! This is the monorepo for various component and utility libraries
 
 ### [`@nimiiiii/nimi-icons`](https://github.com/nimiiiii/Nimi-Elements/tree/main/packages/nimi-icons)
 
-![npm version](https://img.shields.io/npm/v/@nimiiiii/nimi-icons) 
+![license](https://img.shields.io/npm/l/@nimiiiii/nimi-icons) ![npm version](https://img.shields.io/npm/v/@nimiiiii/nimi-icons) 
 
 Azur Lane icons (_e.g. nations_) as SVG, PNG, WEBP or React components
 

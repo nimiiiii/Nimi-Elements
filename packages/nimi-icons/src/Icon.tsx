@@ -1,11 +1,5 @@
-/*
- * Copyright 2020 Tom Bazarnik et al.
- * Licensed under the GNU General Public License v2.0 w/Classpath exception
- * See LICENSE for details.
- */
 import * as React from 'react'
 import { ReactComponent as IronBlood } from './nations/ironblood.svg'
-import { ReactComponent as Bilibili } from './nations/bilibili.svg'
 import { ReactComponent as Collab } from './nations/collab.svg'
 import { ReactComponent as DragonEmpiry } from './nations/dragonempiry.svg'
 import { ReactComponent as EagleUnion } from './nations/eagleunion.svg'
@@ -23,14 +17,15 @@ export interface NationIconProps {
     [key: string]: any
 }
 
-export const toLower = (input: string) => input.normalize("NFD").replace(/[\u0300-\u036f ]/g, "").toLowerCase()
+const toLower = (input: string) => input.normalize("NFD").replace(/[\u0300-\u036f ]/g, "").toLowerCase()
 
 export const Icon = (props: NationIconProps): JSX.Element | null => {
     const type = toLower(props.type)
     const svgProps = (({ type, ...o }) => o)(props)
     switch (type) {
         case 'bilibili':
-            return <Bilibili {...svgProps} />
+            const { ReactComponent } = require('./nations/bilibili.svg')
+            return <ReactComponent {...svgProps} />
         case 'collab':
             return <Collab {...svgProps} />
         case 'hololive':
@@ -82,60 +77,4 @@ export const Icon = (props: NationIconProps): JSX.Element | null => {
         default:
             return null
     }
-}
-
-export {
-    Bilibili,
-    Bilibili as BilibiliIcon,
-    Collab,
-    Collab as Utawarerumono,
-    Collab as KizunaAI,
-    Collab as Hololive,
-    Collab as CollabIcon,
-    Collab as UtawarerumonoIcon,
-    Collab as KizunaAIIcon,
-    Collab as HololiveIcon,
-    DragonEmpiry,
-    DragonEmpiry as ROC,
-    DragonEmpiry as DragonEmpiryIcon,
-    DragonEmpiry as ROCIcon,
-    EagleUnion,
-    EagleUnion as USS,
-    EagleUnion as EagleUnionIcon,
-    EagleUnion as USSIcon,
-    IrisLibre,
-    IrisLibre as FFNF,
-    IrisLibre as IrisLibreIcon,
-    IrisLibre as FFNFIcon,
-    IronBlood,
-    IronBlood as Ironblood,
-    IronBlood as KMS,
-    IronBlood as IronBloodIcon,
-    IronBlood as KMSIcon,
-    Neptunia,
-    Neptunia as HDN,
-    Neptunia as NeptuniaIcon,
-    Neptunia as HDNIcon,
-    NorthernParliament,
-    NorthernParliament as SN,
-    NorthernParliament as NorthernParliamentIcon,
-    NorthernParliament as SNIcon,
-    RoyalNavy,
-    RoyalNavy as HMS,
-    RoyalNavy as RoyalNavyIcon,
-    RoyalNavy as HMSIcon,
-    SakuraEmpire,
-    SakuraEmpire as IJN,
-    SakuraEmpire as SakuraEmpireIcon,
-    SakuraEmpire as IJNIcon,
-    SardegnaEmpire,
-    SardegnaEmpire as RN,
-    SardegnaEmpire as SardegnaEmpireIcon,
-    SardegnaEmpire as RNIcon,
-    Universal,
-    Universal as UniversalIcon,
-    VichyaDominion,
-    VichyaDominion as MNF,
-    VichyaDominion as VichyaDominionIcon,
-    VichyaDominion as MNFIcon
 }
