@@ -35,9 +35,21 @@ Nimi Elements is organized as a monorepo using [Lerna](https://lerna.js.org). Us
 
 > Installs package dependencies and links packages together, using Lerna
 
+#### `yarn build`
+
+> Build all workspace packages, each member must have a `build` npm script
+
 #### `yarn test`
 
 > Run tests for the whole workspace, each member must have a `test` npm script 
+
+#### `yarn storybook`
+
+> Run Storybook for the whole workspace, importing any `*.stories.tsx` file, must be used after running `yarn build`
+
+#### `yarn build-storybook`
+
+> Build Storybook SPA for production
 
 ## Credits
 
