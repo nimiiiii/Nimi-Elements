@@ -4,7 +4,7 @@
 
 # Nimi Elements
 
-<!--[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](link to site)-->
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://storybook.js.org/)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 Welcome aboard! This is the monorepo for various component and utility libraries primarily designed for [_Nimi_](https://github.com/nimiiiii/Nimi), but also can be used in your projects.
@@ -35,9 +35,21 @@ Nimi Elements is organized as a monorepo using [Lerna](https://lerna.js.org). Us
 
 > Installs package dependencies and links packages together, using Lerna
 
+#### `yarn build`
+
+> Build all workspace packages, each member must have a `build` npm script
+
 #### `yarn test`
 
 > Run tests for the whole workspace, each member must have a `test` npm script 
+
+#### `yarn storybook`
+
+> Run Storybook for the whole workspace, importing any `*.stories.tsx` file, must be used after running `yarn build`
+
+#### `yarn build-storybook`
+
+> Build Storybook SPA for production
 
 ## Credits
 
