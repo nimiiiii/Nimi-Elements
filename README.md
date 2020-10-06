@@ -4,7 +4,7 @@
 
 # Nimi Elements
 
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://storybook.js.org/)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://nimiiiii.github.io/Nimi-Elements/)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 Welcome aboard! This is the monorepo for various component and utility libraries primarily designed for [_Nimi_](https://github.com/nimiiiii/Nimi), but also can be used in your projects.
