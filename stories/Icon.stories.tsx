@@ -15,7 +15,7 @@ Basic.args = {
 Basic.argTypes = {
     type: { 
         description: 'overwritten description',
-        control: { type: 'select', options: ['hms', 'kms', 'ffnf', 'ijn', 'rn'] }
+        control: { type: 'select', options: ['hms', 'kms', 'ffnf', 'ijn', 'rn', 'uss'] }
     },
     size: { control: { type: 'range', min: '20', max: '100' } },
     fill: { control: { type: 'color' } }
